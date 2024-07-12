@@ -40,7 +40,7 @@ This URL shortener is a web application that allows users to convert long URLs i
 |-|:---------:|----:|
 |**Framework** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   Node.js   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Nodejs](https://img.shields.io/badge/Node.js-22.4.0-white?logo=nodedotjs&labelColor=white&color=green&link=https%3A%2F%2Fnodejs.org%2Fen)](https://nodejs.org/en)  |
 |**Server** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   Exress.js   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![express](https://img.shields.io/badge/Express.js-4.19.2-white?logo=express&labelColor=black&color=eee&link=https%3A%2F%2Fexpressjs.com%2F)](https://expressjs.com)  |
-|**Database** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   Sqlite   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![sqlite](https://img.shields.io/badge/SQLite-white?logo=sqlite&labelColor=black&color=white&link=https%3A%2F%2Fwww.sqlite.org%2F)](https://www.sqlite.org/)  |
+|**Database** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   SQLite   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![sqlite](https://img.shields.io/badge/SQLite-white?logo=sqlite&labelColor=black&color=white&link=https%3A%2F%2Fwww.sqlite.org%2F)](https://www.sqlite.org/)  |
 |**ORM** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   Sequelize   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![sequelize](https://img.shields.io/badge/Sequelize-6.37.3-white?logo=sequelize&labelColor=white&color=blue&link=https%3A%2F%2Fsequelize.org%2F)](https://sequelize.org/)  |
 |**View Engine** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   EJS   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![ejs](https://img.shields.io/badge/EJS-3.1.10-white?logo=ejs&labelColor=white&color=a91e50&link=https%3A%2F%2Fejs.co%2F)](https://ejs.co/)  |
 
