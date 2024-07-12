@@ -15,7 +15,7 @@ A simple and efficient URL shortener application that allows users to shorten lo
 - [🌟 Introduction](#-introduction)
 - [🌳 Environment](#-environment)
 - [🚀 Run Locally](#-run-locally)
-- [🛠️ Usage](#-usage)
+- [🛠️ Usage](#usage)
 - [⚙️ Configuration (optional)](#conf)
 
 
@@ -76,7 +76,7 @@ No need to install sqlite on your local environment, sqlite npm package will do 
 ```bash
   npm start
 ```
-## 🛠️ Usage
+<h2 id="usage">🛠️ Usage></h2>
 
 Once the app run, output will look like this:
 
