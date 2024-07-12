@@ -41,7 +41,7 @@ This URL shortener is a web application that allows users to convert long URLs i
 
 ### Prerequisites
 
-- <c style="display:flex;align-items:center">[Node.js](https://nodejs.org/) &nbsp;&nbsp;&nbsp; ![Static Badge](https://img.shields.io/badge/Node.js-white?logo=nodedotjs&labelColor=white&color=green&link=https%3A%2F%2Fnodejs.org%2Fen)</c>
+- <div style="display:flex;align-items:center">[Node.js](https://nodejs.org/) &nbsp;&nbsp;&nbsp; ![Static Badge](https://img.shields.io/badge/Node.js-white?logo=nodedotjs&labelColor=white&color=green&link=https%3A%2F%2Fnodejs.org%2Fen)</div>
 
 No need to install sqlite on your local environment, sqlite npm package will do the job.
 
