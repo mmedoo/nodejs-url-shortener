@@ -1,8 +1,8 @@
-![Static Badge](https://img.shields.io/badge/Node.js-white?logo=nodedotjs&labelColor=white&color=green&link=https%3A%2F%2Fnodejs.org%2Fen)
-![Static Badge](https://img.shields.io/badge/Sequelize-white?logo=sequelize&labelColor=white&color=blue&link=https%3A%2F%2Fsequelize.org%2F)
+![Static Badge](https://img.shields.io/badge/Node.js-22.4.0-white?logo=nodedotjs&labelColor=white&color=green&link=https%3A%2F%2Fnodejs.org%2Fen)
+![Static Badge](https://img.shields.io/badge/Sequelize-6.37.3-white?logo=sequelize&labelColor=white&color=blue&link=https%3A%2F%2Fsequelize.org%2F)
 ![Static Badge](https://img.shields.io/badge/SQLite-white?logo=sqlite&labelColor=black&color=white&link=https%3A%2F%2Fwww.sqlite.org%2F)
-![Static Badge](https://img.shields.io/badge/EJS-white?logo=ejs&labelColor=white&color=a91e50&link=https%3A%2F%2Fejs.co%2F)
-![Static Badge](https://img.shields.io/badge/Express.js-white?logo=express&labelColor=black&color=eee&link=https%3A%2F%2Fexpressjs.com%2F)
+![Static Badge](https://img.shields.io/badge/EJS-3.1.10-white?logo=ejs&labelColor=white&color=a91e50&link=https%3A%2F%2Fejs.co%2F)
+![Static Badge](https://img.shields.io/badge/Express.js-4.19.2-white?logo=express&labelColor=black&color=eee&link=https%3A%2F%2Fexpressjs.com%2F)
 
 
 # URL Shortener 🔗
@@ -13,10 +13,10 @@ A simple and efficient URL shortener application that allows users to shorten lo
 
 ## Table of Contents
 
-- [🌟 Introduction](#introduction-🌟)
-- [🌳 Environment](#environment-🌳)
-- [🚀 Run Locally](#run-locally-🚀)
-- [🛠️ Usage](#usage-🛠️)
+- [🌟 Introduction](#🌟-introduction)
+- [🌳 Environment](#🌳-environment)
+- [🚀 Run Locally](#🚀-run-locally)
+- [🛠️ Usage](#🛠️-usage)
 - [⚙️ Configuration (optional)](#conf)
 
 
@@ -41,7 +41,7 @@ This URL shortener is a web application that allows users to convert long URLs i
 
 ### Prerequisites
 
-- <div style="display:flex;align-items:center">[Node.js](https://nodejs.org/) &nbsp;&nbsp;&nbsp; ![Static Badge](https://img.shields.io/badge/Node.js-white?logo=nodedotjs&labelColor=white&color=green&link=https%3A%2F%2Fnodejs.org%2Fen)</div>
+- [Node.js](https://nodejs.org/) &nbsp;&nbsp;&nbsp; ![Static Badge](https://img.shields.io/badge/Node.js-white?logo=nodedotjs&labelColor=white&color=green&link=https%3A%2F%2Fnodejs.org%2Fen)
 
 No need to install sqlite on your local environment, sqlite npm package will do the job.
 
