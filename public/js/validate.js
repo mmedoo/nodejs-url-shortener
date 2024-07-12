@@ -51,5 +51,5 @@ form[ael]("submit" , (e) => {
         form.submit();
         
     } else
-        qs("text").innerText = pick(guilt_phrases);
+        qs(".text").innerText = pick(guilt_phrases);
 });

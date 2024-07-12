@@ -6,4 +6,4 @@ const snuck_phrases = [
     "😆 في الباك اند بردو validators حاطط الـ"
 ];
 
-qs("text").innerText = pick(snuck_phrases);
+qs(".text").innerText = pick(snuck_phrases);
