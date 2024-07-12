@@ -1,9 +1,13 @@
-![Static Badge](https://img.shields.io/badge/Node.js-22.4.0-white?logo=nodedotjs&labelColor=white&color=green&link=https%3A%2F%2Fnodejs.org%2Fen)
-![Static Badge](https://img.shields.io/badge/Sequelize-6.37.3-white?logo=sequelize&labelColor=white&color=blue&link=https%3A%2F%2Fsequelize.org%2F)
-![Static Badge](https://img.shields.io/badge/SQLite-white?logo=sqlite&labelColor=black&color=white&link=https%3A%2F%2Fwww.sqlite.org%2F)
-![Static Badge](https://img.shields.io/badge/EJS-3.1.10-white?logo=ejs&labelColor=white&color=a91e50&link=https%3A%2F%2Fejs.co%2F)
-![Static Badge](https://img.shields.io/badge/Express.js-4.19.2-white?logo=express&labelColor=black&color=eee&link=https%3A%2F%2Fexpressjs.com%2F)
-
+[![Nodejs](https://img.shields.io/badge/Node.js-22.4.0-white?logo=nodedotjs&labelColor=white&color=green&link=https%3A%2F%2Fnodejs.org%2Fen)
+](https://nodejs.org/en)
+[![sequelize](https://img.shields.io/badge/Sequelize-6.37.3-white?logo=sequelize&labelColor=white&color=blue&link=https%3A%2F%2Fsequelize.org%2F)
+](https://sequelize.org/)
+[![sqlite](https://img.shields.io/badge/SQLite-white?logo=sqlite&labelColor=black&color=white&link=https%3A%2F%2Fwww.sqlite.org%2F)
+](https://www.sqlite.org/)
+[![ejs](https://img.shields.io/badge/EJS-3.1.10-white?logo=ejs&labelColor=white&color=a91e50&link=https%3A%2F%2Fejs.co%2F)
+](https://ejs.co/)
+[![express](https://img.shields.io/badge/Express.js-4.19.2-white?logo=express&labelColor=black&color=eee&link=https%3A%2F%2Fexpressjs.com%2F)
+](https://expressjs.com)
 
 # URL Shortener 🔗
 
@@ -41,7 +45,7 @@ This URL shortener is a web application that allows users to convert long URLs i
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) &nbsp;&nbsp;&nbsp; ![Static Badge](https://img.shields.io/badge/Node.js-white?logo=nodedotjs&labelColor=white&color=green&link=https%3A%2F%2Fnodejs.org%2Fen)
+- Node.js &nbsp;&nbsp;&nbsp;[![Node.js](https://img.shields.io/badge/Node.js-white?logo=nodedotjs&labelColor=white&color=green&link=https%3A%2F%2Fnodejs.org%2Fen)](https://nodejs.org/)
 
 No need to install sqlite on your local environment, sqlite npm package will do the job.
 
@@ -122,7 +126,7 @@ Open the terminal in app folder and run command:
 echo.>.env
 ```
 - Open the .env File for Editing:
-You can use notepad or any text editro to open and edit the .env file.
+You can use notepad or any text editor to open and edit the .env file.
 ```bash
 notepad .env
 ```
