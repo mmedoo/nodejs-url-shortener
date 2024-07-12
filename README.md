@@ -55,12 +55,12 @@ No need to install sqlite on your local environment, sqlite npm package will do 
 
 ### Steps 
 
-1. Clone the project
+1. Open the terminal and clone the repository:
 ```bash
   git clone https://github.com/mmedoo/url-shortener.git
 ```
 
-2. Go to the project directory
+2. Go to the app directory
 ```bash
   cd url-shortener
 ```
@@ -70,7 +70,7 @@ No need to install sqlite on your local environment, sqlite npm package will do 
   npm install
 ```
 
-4. Start the server
+4. Run the server
 ```bash
   npm start
 ```
