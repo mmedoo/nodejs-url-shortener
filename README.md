@@ -1,47 +1,63 @@
-# URL Shortener
+![Static Badge](https://img.shields.io/badge/Node.js-white?logo=nodedotjs&labelColor=white&color=green&link=https%3A%2F%2Fnodejs.org%2Fen)
+![Static Badge](https://img.shields.io/badge/Sequelize-white?logo=sequelize&labelColor=white&color=blue&link=https%3A%2F%2Fsequelize.org%2F)
+![Static Badge](https://img.shields.io/badge/SQLite-white?logo=sqlite&labelColor=black&color=white&link=https%3A%2F%2Fwww.sqlite.org%2F)
+![Static Badge](https://img.shields.io/badge/EJS-white?logo=ejs&labelColor=white&color=a91e50&link=https%3A%2F%2Fejs.co%2F)
+![Static Badge](https://img.shields.io/badge/Express.js-white?logo=express&labelColor=black&color=eee&link=https%3A%2F%2Fexpressjs.com%2F)
+
+
+# URL Shortener 🔗
 
 A simple and efficient URL shortener application that allows users to shorten long URLs and easily use them.
+
+
+
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Environment](#environment)
-- [Run Locally](#runlocally)
-- [Usage](#usage)
-- [Configuration (optional)](#configuration (optional))
-## Introduction
+- [🌟 Introduction](#introduction-🌟)
+- [🌳 Environment](#environment-🌳)
+- [🚀 Run Locally](#run-locally-🚀)
+- [🛠️ Usage](#usage-🛠️)
+- [⚙️ Configuration (optional)](#conf)
+
+
+
+
+## Introduction 🌟
 
 This URL shortener is a web application that allows users to convert long URLs into short, manageable links. It also provides analytics for tracking the number of clicks on each shortened URL.
 
-## Environment
+
+
+## Environment 🌳
 
 - **Server**: [Node.js](https://nodejs.org/), [Exress.js](https://www.npmjs.com/package/express)
 - **Database**: Sqlite3
 - **View Engine**: [EJS](https://www.npmjs.com/package/ejs).
 - **ORM**: [Sequelize.js](https://www.npmjs.com/package/sequelize)
 
-## Run Locally
+
+
+## Run Locally 🚀
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/)
+- <c style="display:flex;align-items:center">[Node.js](https://nodejs.org/) &nbsp;&nbsp;&nbsp; ![Static Badge](https://img.shields.io/badge/Node.js-white?logo=nodedotjs&labelColor=white&color=green&link=https%3A%2F%2Fnodejs.org%2Fen)</c>
 
 No need to install sqlite on your local environment, sqlite npm package will do the job.
 
-### Steps
-- Clone the project
+### Steps 
 
+- Clone the project
 ```bash
   git clone https://github.com/mmedoo/url-shortener.git
 ```
 
 - Go to the project directory
-
 ```bash
   cd url-shortener
 ```
 
 - Install dependencies
-
 ```bash
   npm install
 ```
@@ -51,7 +67,7 @@ No need to install sqlite on your local environment, sqlite npm package will do 
 ```bash
   npm start
 ```
-## Usage
+## Usage 🛠️
 
 Once the app run, output will look like this:
 
@@ -67,7 +83,11 @@ Server is listening on http://localhost:1234
 
 Congrats, you're redirected to your super long URL.
 
-## Configuration (optional)
+<h2 id="conf">
+  Configuration ⚙️ 
+  <span style="font-weight:300">(optional)</span>
+</h2>
+
 
 The application can be configured using environment variables. Here are the available options:
 
