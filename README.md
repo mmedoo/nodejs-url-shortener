@@ -6,28 +6,28 @@
 
 # URL Shortener 🔗
 
-A simple and efficient URL shortener application that allows users to shorten long URLs and easily use them.
+A simple and efficient URL shortener application that allows users to shorten long URLs.
 
 
+<h2 id="">Table of Contents</h2>
 
-## Table of Contents
-
-- [🌟 Introduction](#-introduction)
-- [🌳 Environment](#-environment)
-- [🚀 Run Locally](#-run-locally)
-- [🛠️ Usage](#usage)
+- [🌟 Introduction](#intro)
+- [🌳 Environment](#env)
+- [🚀 Run Locally](#run)
+  - [Prerequisite](#prerequisites)
+  - [Steps](#steps)
+- [🛠️ Usage](#use)
 - [⚙️ Configuration (optional)](#conf)
+  - [How to configure](#here-is-how-to-create-env-file-to-change-these-settings)
+    - [Linux](#linux)
+    - [Windows](#windows)
 
 
+<h2 id="intro">🌟 Introduction</h2>
 
+This URL shortener is a web application that allows users to convert long URLs into short links.
 
-## 🌟 Introduction
-
-This URL shortener is a web application that allows users to convert long URLs into short, manageable links. It also provides analytics for tracking the number of clicks on each shortened URL.
-
-
-
-## 🌳 Environment
+<h2 id="env">🌳 Environment</h2>
 
 <!-- - **Framework**: Node.js &nbsp;&nbsp; [![Nodejs](https://img.shields.io/badge/Node.js-22.4.0-white?logo=nodedotjs&labelColor=white&color=green&link=https%3A%2F%2Fnodejs.org%2Fen)](https://nodejs.org/en) -->
 <!-- - **Server**: Express.js &nbsp;&nbsp;[![express](https://img.shields.io/badge/Express.js-4.19.2-white?logo=express&labelColor=black&color=eee&link=https%3A%2F%2Fexpressjs.com%2F)](https://expressjs.com) -->
@@ -41,12 +41,11 @@ This URL shortener is a web application that allows users to convert long URLs i
 |**Framework** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   Node.js   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Nodejs](https://img.shields.io/badge/Node.js-22.4.0-white?logo=nodedotjs&labelColor=white&color=green&link=https%3A%2F%2Fnodejs.org%2Fen)](https://nodejs.org/en)  |
 |**Server** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   Exress.js   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![express](https://img.shields.io/badge/Express.js-4.19.2-white?logo=express&labelColor=black&color=eee&link=https%3A%2F%2Fexpressjs.com%2F)](https://expressjs.com)  |
 |**Database** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   Sqlite   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![sqlite](https://img.shields.io/badge/SQLite-white?logo=sqlite&labelColor=black&color=white&link=https%3A%2F%2Fwww.sqlite.org%2F)](https://www.sqlite.org/)  |
-|**View Engine** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   EJS   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![ejs](https://img.shields.io/badge/EJS-3.1.10-white?logo=ejs&labelColor=white&color=a91e50&link=https%3A%2F%2Fejs.co%2F)](https://ejs.co/)  |
 |**ORM** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   Sequelize   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![sequelize](https://img.shields.io/badge/Sequelize-6.37.3-white?logo=sequelize&labelColor=white&color=blue&link=https%3A%2F%2Fsequelize.org%2F)](https://sequelize.org/)  |
+|**View Engine** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   EJS   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![ejs](https://img.shields.io/badge/EJS-3.1.10-white?logo=ejs&labelColor=white&color=a91e50&link=https%3A%2F%2Fejs.co%2F)](https://ejs.co/)  |
 
 
-
-## 🚀 Run Locally
+<h2 id="run">🚀 Run Locally</h2>
 
 ### Prerequisites
 
@@ -56,30 +55,28 @@ No need to install sqlite on your local environment, sqlite npm package will do 
 
 ### Steps 
 
-- Clone the project
+1. Clone the project
 ```bash
   git clone https://github.com/mmedoo/url-shortener.git
 ```
 
-- Go to the project directory
+2. Go to the project directory
 ```bash
   cd url-shortener
 ```
 
-- Install dependencies
+3. Install dependencies
 ```bash
   npm install
 ```
 
-- Start the server
-
+4. Start the server
 ```bash
   npm start
 ```
-<h2 id="usage">🛠️ Usage</h2>
+<h2 id="use">🛠️ Usage</h2>
 
-Once the app run, output will look like this:
-
+Once the server runs, output will look like this:
 ```bash
 Server is listening on http://localhost:1234
 ```
@@ -107,35 +104,39 @@ The application can be configured using environment variables. Here are the avai
 
 ### Linux
 
-- Create the .env File:
-Open the terminal in app folder and run command:
+1. **Create the .env File**: Open the terminal in app folder and run command:
 ```bash
 touch .env
 ```
-- Open the .env File for Editing:
+
+2. **Open the .env File for Editing**:
 You can use any text editor of your choice, here is a way through the terminal:
 ```bash
 nano .env
 ```
-- Add environment variables and set them as you like:
+
+3. **Add environment variables and set them as you like**:
 ```md
 PORT=1234
 FORCE_DROP=false
 ```
 
+
 ### Windows
 
-- Create the .env File:
+1. **Create the .env File**:
 Open the terminal in app folder and run command:
 ```bash
 echo.>.env
 ```
-- Open the .env File for Editing:
+
+2. **Open the .env File for Editing**:
 You can use notepad or any text editor to open and edit the .env file.
 ```bash
 notepad .env
 ```
-- Add environment variables and set them as you like:
+
+3. **Add environment variables and set them as you like**:
 ```md
 PORT=1234
 FORCE_DROP=false
