@@ -13,10 +13,10 @@ A simple and efficient URL shortener application that allows users to shorten lo
 
 ## Table of Contents
 
-- [🌟 Introduction](#🌟-introduction)
-- [🌳 Environment](#🌳-environment)
-- [🚀 Run Locally](#🚀-run-locally)
-- [🛠️ Usage](#🛠️-usage)
+- [🌟 Introduction](#-introduction)
+- [🌳 Environment](#-environment)
+- [🚀 Run Locally](#-run-locally)
+- [🛠️ Usage](#-usage)
 - [⚙️ Configuration (optional)](#conf)
 
 
