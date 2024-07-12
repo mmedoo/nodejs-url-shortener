@@ -22,13 +22,13 @@ A simple and efficient URL shortener application that allows users to shorten lo
 
 
 
-## Introduction 🌟
+## 🌟 Introduction
 
 This URL shortener is a web application that allows users to convert long URLs into short, manageable links. It also provides analytics for tracking the number of clicks on each shortened URL.
 
 
 
-## Environment 🌳
+## 🌳 Environment
 
 - **Server**: [Node.js](https://nodejs.org/), [Exress.js](https://www.npmjs.com/package/express)
 - **Database**: Sqlite3
@@ -37,7 +37,7 @@ This URL shortener is a web application that allows users to convert long URLs i
 
 
 
-## Run Locally 🚀
+## 🚀 Run Locally
 
 ### Prerequisites
 
@@ -67,7 +67,7 @@ No need to install sqlite on your local environment, sqlite npm package will do 
 ```bash
   npm start
 ```
-## Usage 🛠️
+## 🛠️ Usage
 
 Once the app run, output will look like this:
 
@@ -84,7 +84,7 @@ Server is listening on http://localhost:1234
 Congrats, you're redirected to your super long URL.
 
 <h2 id="conf">
-  Configuration ⚙️ 
+  ⚙️ Configuration
   <span style="font-weight:300">(optional)</span>
 </h2>
 
