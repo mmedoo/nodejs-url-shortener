@@ -15,11 +15,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({ extended: true }));
 
 for (let route of Object.values(routers)) {
-    app.use('/', route);
+	app.use('/', route);
 }
 
 
 const port = process.env.PORT | 1234;
 app.listen(port, () => {
-    console.log(`Server is listening on http://localhost:${port}`);
+	console.log(`Server is listening on http://localhost:${port}`);
 });

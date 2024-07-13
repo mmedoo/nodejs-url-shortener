@@ -7,14 +7,14 @@ display.innerHTML = fullURL + whatever_was_there;
 display.classList.remove('off');
 
 display[ael]("click", () => {
-    
-    navigator.clipboard.writeText(fullURL);
-    display.classList.remove("hoverable")
-    display.innerHTML = "Copied!";
+	
+	navigator.clipboard.writeText(fullURL);
+	display.classList.remove("hoverable")
+	display.innerHTML = "Copied!";
 
-    setTimeout(() => {
-        display.innerHTML = fullURL + whatever_was_there;
-        display.classList.add("hoverable");
-    }, 2500);
-    
+	setTimeout(() => {
+		display.innerHTML = fullURL + whatever_was_there;
+		display.classList.add("hoverable");
+	}, 2500);
+	
 });
