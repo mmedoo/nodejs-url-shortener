@@ -10,7 +10,7 @@
 A simple and efficient URL shortener application that allows users to shorten long URLs.
 
 
-<h2 id="">Table of Contents</h2>
+## Table of Contents
 
 - [🌟 Introduction](#intro)
 - [🌳 Environment](#env)
@@ -20,8 +20,8 @@ A simple and efficient URL shortener application that allows users to shorten lo
 - [🛠️ Usage](#use)
 - [⚙️ Configuration (optional)](#conf)
   - [How to configure](#here-is-how-to-create-env-file-to-change-these-settings)
-    - [Linux](#linux)
-    - [Windows](#windows)
+	- [Linux](#linux)
+	- [Windows](#windows)
 
 
 <h2 id="intro">🌟 Introduction</h2>
@@ -58,22 +58,22 @@ This URL shortener is a web application that allows users to convert long URLs i
 
 1. Open the terminal and clone the repository:
 ```bash
-  git clone https://github.com/mmedoo/url-shortener.git
+	git clone https://github.com/mmedoo/url-shortener.git
 ```
 
 2. Go to the app directory
 ```bash
-  cd url-shortener
+	cd url-shortener
 ```
 
 3. Install dependencies
 ```bash
-  npm install
+	npm install
 ```
 
 4. Run the server
 ```bash
-  npm start
+	npm start
 ```
 
 
@@ -81,7 +81,7 @@ This URL shortener is a web application that allows users to convert long URLs i
 
 Once the server runs, terminal should log:
 ```bash
-Server is listening on http://localhost:1234
+	Server is listening on http://localhost:1234
 ```
 
 1. Open your browser and go to [`http://localhost:1234`](http://localhost:1234).
@@ -93,8 +93,8 @@ Server is listening on http://localhost:1234
 **Congrats 🌟, you're redirected to your super long URL.**
 
 <h2 id="conf">
-  ⚙️ Configuration
-  <span style="font-weight:300">(optional)</span>
+	⚙️ Configuration
+	<span style="font-weight:300">(optional)</span>
 </h2>
 
 
@@ -109,19 +109,19 @@ The application can be configured using environment variables. Here are the avai
 
 1. **Create the .env File**: Open the terminal in app folder and run command:
 ```bash
-touch .env
+	touch .env
 ```
 
 2. **Open the .env File for Editing**:
 You can use any text editor of your choice, here is a way through the terminal:
 ```bash
-nano .env
+	nano .env
 ```
 
 3. **Add environment variables and set them as you like**:
 ```md
-PORT=1234
-FORCE_DROP=false
+	PORT=1234
+	FORCE_DROP=false
 ```
 
 
@@ -130,18 +130,18 @@ FORCE_DROP=false
 1. **Create the .env File**:
 Open the terminal in app folder and run command:
 ```bash
-echo.>.env
+	echo.>.env
 ```
 
 2. **Open the .env File for Editing**:
 You can use any text editor of your choice to open and edit the .env file. Run this command to use notepad:
 ```bash
-notepad .env
+	notepad .env
 ```
 
 3. **Add environment variables and set them as you like**:
 ```md
-PORT=1234
-FORCE_DROP=false
+	PORT=1234
+	FORCE_DROP=false
 ```
 
