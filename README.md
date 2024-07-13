@@ -5,9 +5,14 @@
 [![express](https://img.shields.io/badge/Express.js-4.19.2-white?logo=express&labelColor=black&color=eee&link=https%3A%2F%2Fexpressjs.com%2F)](https://expressjs.com)
 
 
+
+
 # URL Shortener 🔗
 
 A simple and efficient URL shortener application that allows users to shorten long URLs.
+
+
+
 
 
 ## Table of Contents
@@ -24,9 +29,15 @@ A simple and efficient URL shortener application that allows users to shorten lo
 	- [Windows](#windows)
 
 
+
+
+
 <h2 id="intro">🌟 Introduction</h2>
 
 This URL shortener is a web application that allows users to convert long URLs into short links.
+
+
+
 
 <h2 id="env">🌳 Environment</h2>
 
@@ -46,6 +57,10 @@ This URL shortener is a web application that allows users to convert long URLs i
 |**View Engine** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   EJS   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![ejs](https://img.shields.io/badge/EJS-3.1.10-white?logo=ejs&labelColor=white&color=a91e50&link=https%3A%2F%2Fejs.co%2F)](https://ejs.co/)  |
 
 
+
+
+
+
 <h2 id="run">🚀 Run Locally</h2>
 
 ### Prerequisites
@@ -54,6 +69,8 @@ This URL shortener is a web application that allows users to convert long URLs i
 
 **Note**: No need to install SQLite on your local environment, SQLite npm package will do the job.
 
+
+
 ### Steps 
 
 1. Open the terminal and clone the repository:
@@ -61,20 +78,26 @@ This URL shortener is a web application that allows users to convert long URLs i
 	git clone https://github.com/mmedoo/url-shortener.git
 ```
 
+
 2. Go to the app directory
 ```bash
 	cd url-shortener
 ```
+
 
 3. Install dependencies
 ```bash
 	npm install
 ```
 
+
 4. Run the server
 ```bash
 	npm start
 ```
+
+
+
 
 
 <h2 id="use">🛠️ Usage</h2>
@@ -91,6 +114,10 @@ Once the server runs, terminal should log:
 5. Paste it in your browser.
 
 **Congrats 🌟, you're redirected to your super long URL.**
+
+
+
+
 
 <h2 id="conf">
 	⚙️ Configuration
