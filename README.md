@@ -23,6 +23,7 @@ A simple and efficient URL shortener application that allows users to shorten lo
   - [Prerequisite](#prerequisites)
   - [Steps](#steps)
 - [🛠️ Usage](#use)
+- [📬 API Endpoints](#api)
 - [⚙️ Configuration (optional)](#conf)
   - [How to configure](#here-is-how-to-create-env-file-to-change-these-settings)
 	- [Linux](#linux)
@@ -50,7 +51,7 @@ This URL shortener is a web application that allows users to convert long URLs i
 
 |-|Name|Link|
 |-|:---------:|----:|
-|**Framework** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   Node.js   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Nodejs](https://img.shields.io/badge/Node.js-22.4.0-white?logo=nodedotjs&labelColor=white&color=green&link=https%3A%2F%2Fnodejs.org%2Fen)](https://nodejs.org/en)  |
+|**Language** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   Node.js   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Nodejs](https://img.shields.io/badge/Node.js-22.4.0-white?logo=nodedotjs&labelColor=white&color=green&link=https%3A%2F%2Fnodejs.org%2Fen)](https://nodejs.org/en)  |
 |**Server** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   Exress.js   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![express](https://img.shields.io/badge/Express.js-4.19.2-white?logo=express&labelColor=black&color=eee&link=https%3A%2F%2Fexpressjs.com%2F)](https://expressjs.com)  |
 |**Database** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   SQLite   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![sqlite](https://img.shields.io/badge/SQLite-5.1.7-white?logo=sqlite&labelColor=black&color=white&link=https%3A%2F%2Fwww.sqlite.org%2F)](https://www.npmjs.com/package/sqlite3)  |
 |**ORM** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   Sequelize   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![sequelize](https://img.shields.io/badge/Sequelize-6.37.3-white?logo=sequelize&labelColor=white&color=blue&link=https%3A%2F%2Fsequelize.org%2F)](https://sequelize.org/)  |
@@ -114,6 +115,19 @@ Once the server runs, terminal should log:
 5. Paste it in your browser.
 
 **Congrats 🌟, you're redirected to your super long URL.**
+
+
+
+
+<h2 id="api">📬 API Endpoints</h2>
+
+### **GET** `/c/?url={desired_URL}`
+- Creates a new key, if doesn't exist, for `{desired_URL}`.
+- Responds with the key.
+
+### **GET** `/{key}`:
+- Requests the URL corresponding to `{key}`.
+- Responds with a redirectng page to corresponding URL.
 
 
 
