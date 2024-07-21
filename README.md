@@ -125,7 +125,7 @@ Once the server runs, terminal should log:
 - Creates a new key, if doesn't exist, for `{desired_URL}`.
 - Responds with the key.
 
-### **GET** `/{key}`:
+### **GET** `/{key}`
 - Requests the URL corresponding to `{key}`.
 - Responds with a redirectng page to corresponding URL.
 
