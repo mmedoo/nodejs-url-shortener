@@ -121,8 +121,8 @@ Once the server runs, terminal should log:
 
 <h2 id="api">📬 API Endpoints</h2>
 
-### **GET** `/c/?url={desired_URL}`
-- Creates a new key, if doesn't exist, for `{desired_URL}`.
+### **GET** `/c/?url={desired_url}`
+- Creates a new key, if doesn't exist, for `{desired_url}`.
 - Responds with the key.
 
 ### **GET** `/{key}`
