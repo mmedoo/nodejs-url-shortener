@@ -76,25 +76,25 @@ This URL shortener is a web application that allows users to convert long URLs i
 
 1. Open the terminal and clone the repository:
 ```bash
-	git clone https://github.com/mmedoo/url-shortener.git
+git clone https://github.com/mmedoo/url-shortener.git
 ```
 
 
 2. Go to the app directory
 ```bash
-	cd url-shortener
+cd url-shortener
 ```
 
 
 3. Install dependencies
 ```bash
-	npm install
+npm install
 ```
 
 
 4. Run the server
 ```bash
-	npm start
+npm start
 ```
 
 
@@ -105,7 +105,7 @@ This URL shortener is a web application that allows users to convert long URLs i
 
 Once the server runs, terminal should log:
 ```bash
-	Server is listening on http://localhost:1234
+Server is listening on http://localhost:1234
 ```
 
 1. Open your browser and go to [`http://localhost:1234`](http://localhost:1234).
@@ -150,19 +150,19 @@ The application can be configured using environment variables. Here are the avai
 
 1. **Create the .env File**: Open the terminal in app folder and run command:
 ```bash
-	touch .env
+touch .env
 ```
 
 2. **Open the .env File for Editing**:
 You can use any text editor of your choice, here is a way through the terminal:
 ```bash
-	nano .env
+nano .env
 ```
 
 3. **Add environment variables and set them as you like**:
 ```md
-	PORT=1234
-	FORCE_DROP=false
+PORT=1234
+FORCE_DROP=false
 ```
 
 
@@ -171,18 +171,18 @@ You can use any text editor of your choice, here is a way through the terminal:
 1. **Create the .env File**:
 Open the terminal in app folder and run command:
 ```bash
-	echo.>.env
+echo.>.env
 ```
 
 2. **Open the .env File for Editing**:
 You can use any text editor of your choice to open and edit the .env file. Run this command to use notepad:
 ```bash
-	notepad .env
+notepad .env
 ```
 
 3. **Add environment variables and set them as you like**:
 ```md
-	PORT=1234
-	FORCE_DROP=false
+PORT=1234
+FORCE_DROP=false
 ```
 
